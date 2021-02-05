@@ -28,7 +28,7 @@ body {
 .speaking-direction {
     font-family: 'Courier New', Courier, monospace;
     margin: auto;
-    max-width: 500px;
+    max-width: 500px; 
     padding-left: 50px;
 }
 
