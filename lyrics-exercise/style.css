@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.album-art {
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.album-art img {
+    width: 250px;
+    height: 250px;
+}
+
+.song-details-container h1 {
+    font-family: 'Bevan', serif;
+    color: #90b0e8;
+}
+
+.song-details-container h2 {
+    font-family: 'Fira Code', monospace;
+    font-weight: normal;
+    color: #ddd;
+}
+
+.video-container {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.lyrics-container {
+    font-size: 1.3em;
+}
+
+.lyrics-container pre {
+    font-family: 'Fira Code', monospace;
+}
