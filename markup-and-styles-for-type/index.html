@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markup and Styles for Type</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/zjf0sqf.css">
 </head>
 <body>
     
@@ -18,19 +21,19 @@
 
         <h1>Inline elements and block elements</h1>
 
-        In normal body copy, text typically flows from one line to the next as we reach the edge of the visible page. We add words to a line, progressing horizontally from left to right, until we reach the end of the line and drop down to continue on the next line.
+        <p>In normal body copy, text typically flows from one line to the next as we reach the edge of the visible page. We add words to a line, progressing horizontally from left to right, until we reach the end of the line and drop down to continue on the next line.</p>
 
-        In HTML, this is the default behavior for text without any markup. Many html elements are intended to flow with text in this way without interruption. Elements that have this behavior are known as inline elements.
+        <p>In HTML, this is the default behavior for text without any markup. Many html elements are intended to flow with text in this way without interruption. Elements that have this behavior are known as inline elements.</p>
 
-        Common inline elements include a, strong, em, b, i, sup, sub, button, code and span.
+        <p>Common inline elements include <a href="#">a</a>, <strong>strong</strong>, <em>em</em>, <b>b</b>, <i>i</i>, <sup>sup</sup>, <sub>sub</sub>, <button>button</button>, <code>code</code>, and <span>span</span>.</p>
 
         <!-- Wrap each element named above in its corresponding tag. -->
 
-        HTML also has elements which do not follow the normal flow of text, but instead define the containers, or blocks, within which inline text flows. Most html documents are fairly complicated hierarchies of 'nested' elements - blocks containing blocks, etc. 
+        <p>HTML also has elements which do not follow the normal flow of text, but instead define the containers, or blocks, within which inline text flows. Most html documents are fairly complicated hierarchies of 'nested' elements - blocks containing blocks, etc.</p>
 
-        Common block elements include:
+        <p>Common block elements include:</p>
         
-        p, h1, h2, h3, h4, h5, h6, article, section, nav, aside, header, footer, and div.
+        <p>p</p>, <h1>h1</h1>, <h2>h2</h2>, <h3>h3</h3>, <h4>h4</h4>, <h5>h5</h5>, <h6>h6</h6>, <article>article</article>, <section>section</section>, <nav>nav</nav>, <aside>aside</aside>, <header>header</header>, <footer>footer</footer>, <div>div</div>
 
         <!-- Wrap each element named in the line above with its corresponding tag. -->
         <!-- For all other blocks in this section, wrap in a p tag. -->
@@ -43,7 +46,7 @@
 
         Sometimes, you want to put notes or comments into the code itself that are not visible to the end-user. These code comments can also be useful for temporarily 'removing' code from the page without actually deleting it, because code within a comment does not get parsed by the browser.
 
-        Hide this block of text by placing your cursor in it, then typing command-/, which (in VS Code) will add comment delimiters to the entire line.
+        <!-- Hide this block of text by placing your cursor in it, then typing command-/, which (in VS Code) will add comment delimiters to the entire line. -->
 
       </section>
 
@@ -61,7 +64,7 @@
 
         <h1>HTML entities</h1>
 
-        <p>There are some characters that must be handled differently because they are used to create the markup itself. These characters must be 'escaped' in your code with short 'words' called <dfn>HTML Entities</dfn>. These 'words' all begin with an ampersand, and end with a semi-colon. Angle brackets (less-than and greater-than) must be represented with html entities, since they are parsed to create tags themselves.
+        <p>There are some characters that must be handled differently because they are used to create the markup itself. These characters must be 'escaped' in your code with short 'words' called <dfn>HTML Entities</dfn>. These 'words' all begin with an ampersand, and end with a semi-colon. Angle brackets (&lt; and &gt;) must be represented with html entities, since they are parsed to create tags themselves.
 
         <!-- Above, replace 'less-than' with &lt; and 'greater-then' with &gt;. -->
 
