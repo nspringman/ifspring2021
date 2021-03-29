@@ -8,6 +8,8 @@ body {
 
 .content-container-wrapper {
     background-color: #fff;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .content-container {
