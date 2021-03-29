@@ -1,7 +1,50 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Crimson Pro', serif;
+}
+
+body {
+    background-color: #f2efe1;
+}
+
+.content-container-wrapper {
+    background-color: #fff;
+}
+
 .content-container {
     width: 90%;
     max-width: 960px;
     margin: auto;
+    padding-bottom: 30px;
+}
+
+.horizontal-divider {
+    height: 1px;
+    width: 98%;
+    background-color: #444;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.heading h1 {
+    font-size: 2.8em;
+}
+
+.heading p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    margin: 8px 0;
+    color: #444;
+}
+
+.heading p a {
+    color: #444;
+}
+
+.heading {
+    padding-top: 10px;
+    margin-top: -8px;
+    margin-bottom: 25px;
 }
 
 .intro {
@@ -11,8 +54,8 @@
 
 .intro .intro-text-wrapper {
     margin-right: 18px;
-    margin-bottom: 20px;
     max-width: 40%;
+    margin-bottom: -1em;
 }
 
 .intro-image-wrapper {
@@ -24,8 +67,26 @@
     width: 100%;
 }
 
+.intro p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-top: 0px;
+}
+
 .recipe-details {
     display: flex;
+}
+
+.recipe-details h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+
+.recipe-details table, .recipe-details p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
 }
 
 .recipe-details .ingredients {
@@ -58,6 +119,7 @@
 .intro-image-wrapper {
     max-width: 100%;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .recipe-details {
@@ -67,6 +129,7 @@
 .recipe-details .ingredients {
     max-width: 100%;
     margin-right: 0;
+    margin-bottom: 30px;
 }
 
 .recipe-details .instructions {
