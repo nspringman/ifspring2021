@@ -334,3 +334,181 @@ a#btn_sardella:hover { /* https://codepen.io/RazorXio/pen/gMaoOW */
     border: 3px solid #fff;
     box-shadow: inset 0 100px 0 0 #1ee1ee;
 }
+
+a#btn_craigslist {
+    display: inline-block;
+    height: 84px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    padding: 8px 20px 0 20px;
+    background-color: #6a07c1;
+    border: 3px solid #fff;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    transition: all 0.3s;
+    box-shadow: inset 0 0px 0 0 #006bee;
+}
+
+a#btn_craigslist:hover { 
+    border: 3px solid #fff;
+    box-shadow: inset 20px 20px 20px 50px #1f39fc;
+}
+
+a#btn_lyft {
+    display: inline-block;
+    height: 84px;
+    box-sizing: border-box;
+    border-radius: 42px;
+    margin: auto;
+    margin-top: 90px;
+    padding: 2px 40px 0 40px;
+    background-color: #d51bd5;
+    color: #fff;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.3s;
+    box-shadow: inset 0 0px 0 0 #006bee;
+}
+
+a#btn_lyft:hover { 
+    background-color: #fff;
+    color: #d51bd5;
+    box-shadow: 0 2px 9px 2px #821082;
+}
+
+a#btn_samsung {
+    display: inline-block;
+    height: 84px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 90px;
+    padding: 22px 60px 0 60px;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+a#btn_samsung:hover { 
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,6d62d1+60,e5bc6b+100 */
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #000000 0%, #6d62d1 60%, #e5bc6b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #000000 0%,#6d62d1 60%,#e5bc6b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #000000 0%,#6d62d1 60%,#e5bc6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#e5bc6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+a#btn_army {
+    display: inline-block;
+    text-transform: uppercase;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 102px;
+    padding: 5px 10px 0 10px;
+    background-color: #000000;
+    border: 3px solid #e6aa13;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'arial narrow', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+a#btn_army span {
+    padding:  0 15px;
+}
+
+a#btn_army:hover {
+    background-color: #000;
+    border: 3px solid #e6aa13;
+    box-shadow: 0px 3px #000;
+}
+@keyframes fade {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+a#btn_army span::before, a#btn_army span::after {
+    opacity: 0;
+    content: '★';
+}
+
+a#btn_army:hover span::before, a#btn_army:hover span::after {
+    animation: fade ease-in-out 0.2s;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+
+a#btn_npr {
+    display: inline-block;
+    height: 84px;
+    text-transform: lowercase;
+    letter-spacing: 15px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 90px;
+    padding: 0px 5px 0 12px;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    /* transition: all 0.3s; */
+}
+
+a#btn_npr:hover { 
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6290c+0,f6290c+33,f16f5c+33,000000+34,000000+65,1f97c6+66 */
+    background: #f6290c; /* Old browsers */
+    background: -moz-linear-gradient(left,  #f6290c 0%, #f6290c 33%, #f16f5c 33%, #000000 34%, #000000 65%, #1f97c6 66%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #f6290c 0%,#f6290c 33%,#f16f5c 33%,#000000 34%,#000000 65%,#1f97c6 66%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #f6290c 0%,#f6290c 33%,#f16f5c 33%,#000000 34%,#000000 65%,#1f97c6 66%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6290c', endColorstr='#1f97c6',GradientType=1 ); /* IE6-9 */
+}
+
+a#btn_instagram {
+    display: inline-block;
+    /* height: 84px; */
+    text-transform: lowercase;
+    text-align: center;
+    letter-spacing: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 90px;
+    padding: 0px 0px 7px 14px;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    background: radial-gradient(ellipse farthest-corner at top right, #d402ff 1%,#ed02e5 21%,#ef017c 45%,#efe702 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    animation: colorChange 1s infinite alternate;
+    transition: all 0.2s;
+}
+
+@keyframes colorChange { /* https://stackoverflow.com/questions/57218443/how-to-animate-a-radial-gradient-using-css */
+    to {
+      background-position: top left;
+    }
+}
+
+a#btn_instagram:hover { 
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d402ff+1,ed02e5+21,ef017c+45,efe702+100 */
+    /* background: radial-gradient(ellipse farthest-corner at left bottom, #d402ff 1%,#ed02e5 21%,#ef017c 45%,#efe702 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    box-shadow: 0px 0px 25px 0px rgba(248, 129, 184, 0.75);
+    color: rgb(161, 223, 214);
+}
