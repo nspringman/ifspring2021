@@ -512,3 +512,183 @@ a#btn_instagram:hover {
     box-shadow: 0px 0px 25px 0px rgba(248, 129, 184, 0.75);
     color: rgb(161, 223, 214);
 }
+
+a#btn_nbc {
+    display: inline-block;
+    height: 210px;
+    text-transform: lowercase;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 45px;
+    padding: 55px 11px 7px 18px;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    font-size: 42px;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: -2px;
+    line-height: 80%;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+a#btn_nbc:hover { 
+    box-shadow: 0px 0px 25px 0px rgba(255, 217, 0, 0.75);
+    color: rgba(255, 213, 44, 0.75);
+}
+
+a#btn_ek {
+    display: inline-block;
+    height: 80px;
+    text-transform: lowercase;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 90px;
+    padding: 23px 18px 0px 18px;
+    background-color: rgb(198, 1, 1);
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+a#btn_ek:hover { 
+    box-shadow: 0px 0px 25px 0px rgba(255, 217, 0, 0.75);
+    color: rgba(255, 213, 44, 0.75);
+}
+
+a#btn_mbg {
+    display: inline-block;
+    height: 84px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    padding: 28px 15px 0 15px;
+    background-color: #056d15;
+    border: 2px double #fff;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-erif;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+a#btn_mbg span::after { /* https://stackoverflow.com/questions/28623446/hover-effect-expand-bottom-border */
+    display:block;
+    content: '';
+    border-bottom: 2px double #fffb91; 
+    transform: scaleX(0);  
+    transition: transform 150ms ease-in-out;
+    transform-origin:  0% 50%;
+}
+
+a#btn_mbg:hover span::after {
+    transform: scaleX(1);
+}
+
+a#btn_mbg:hover {
+    background-color: #aedfb6;
+    border: 2px double #f7dd76;
+    color: #0c3007;
+}
+
+a#btn_oldnavy {
+    display: inline-block;
+    height: 84px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 90px;
+    padding: 22px 30px 0 30px;
+    background-color: rgb(47, 128, 228);
+    box-shadow: 1px 5px 0 0 rgb(24, 64, 113);
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Arial Narrow', sans-serif;
+    font-weight: bold;
+    transition: 0.1s ease-out;
+}
+
+a#btn_oldnavy:hover { 
+    box-shadow: none;
+    background-color: rgb(24, 64, 113);
+    transform: translate(0, 5px);
+}
+
+a#btn_hh {
+    display: inline-block;
+    height: 84px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin: auto;
+    margin-top: 90px;
+    padding: 22px 10px 0 10px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Mansalva', cursive;
+    font-weight: bold;
+    transition: 0.1s ease-out;
+}
+
+a#btn_hh:hover { 
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    color: rgb(244, 212, 33);
+    transform: translate(0, 2px);
+}
+
+a#btn_ff {
+    display: inline-block;
+    height: 84px;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin: auto;
+    margin-top: 90px;
+    padding: 22px 40px 0 10px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Helvetica', sans-serif;
+    transition: 0.1s ease-out;
+}
+
+a#btn_ff i {
+    transform: rotate(-45deg);
+    color: rgb(4, 117, 216);
+}
+
+a#btn_ff:hover { 
+    box-shadow: none;
+    background-color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    color: rgb(194, 206, 245);
+}
+
+a#btn_ff:hover i {
+    transform: rotate(-10deg) translate(80px, -60px) scale(2);
+    text-shadow: 0px 2px 15px rgba(255, 0, 0, 1);
+    color: rgb(4, 117, 216);
+    top: 0px;
+    font-size: 30px;
+}
+
+a#btn_ff:hover { 
+    box-shadow: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(194, 206, 245);
+}
