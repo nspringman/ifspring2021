@@ -35,4 +35,37 @@ body {
       .navbar .navbar-wrapper .links .active {
         border-bottom: 6px solid #7d0606; }
 
+img {
+  width: 100%; }
+
+.container {
+  max-width: 1280px;
+  margin: auto; }
+
+.row {
+  display: flex;
+  flex-direction: row; }
+
+.col-6 {
+  box-sizing: border-box;
+  width: 50%; }
+
+.heading {
+  width: 95%;
+  margin: auto;
+  align-items: center; }
+  .heading .left-text {
+    text-align: left; }
+    .heading .left-text .name {
+      width: 100%;
+      font-size: 4em;
+      font-weight: bold; }
+    .heading .left-text .subheading {
+      font-size: 1.83em;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    .heading .left-text .paragraph {
+      font-size: 1.2em;
+      line-height: 1.4em; }
+
 /*# sourceMappingURL=style.css.map */
