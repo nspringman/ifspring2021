@@ -109,5 +109,9 @@ img {
   font-size: 1.3em; }
 .page-content .written-content {
   margin-top: 2.5em; }
+.page-content .image-float-right {
+  padding-left: 20px;
+  float: right;
+  width: 33%; }
 
 /*# sourceMappingURL=style.css.map */
