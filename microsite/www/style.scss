@@ -150,9 +150,22 @@ img {
     .written-content {
         margin-top: 2.5em;
     }
+
+    .block-quote{
+        width: 80%;
+        padding: 1em 0;
+        margin: auto;
+    }
+
     .image-float-right {
         padding-left: 20px;
         float: right;
         width: 33%;
+    }
+}
+
+#visible-language-workshop {
+    .title h1 {
+        font-size: 2.5em;
     }
 }
